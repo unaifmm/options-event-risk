@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Do Options Overprice Macro News? SPY Options around CPI, Payrolls and FOMC Decisions, 2022-2026"
+authors:
+  - family-names: "Fueyo Montalvo"
+    given-names: "Unai"
+    affiliation: "Universidad Autónoma de Madrid"
+repository-code: "https://github.com/unaifmm/options-event-risk"
+license: MIT
+keywords:
+  - options
+  - volatility risk premium
+  - macro announcements
+  - VIX1D
+  - Black-Scholes
+  - event study
+version: "1.0"
+date-released: "2026-11-09"

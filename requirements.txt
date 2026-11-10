@@ -1,0 +1,9 @@
+# Python packages this project needs. Install with:  pip install -r requirements.txt
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+pyarrow>=14
+yfinance>=0.2.40
+lse-data>=0.14
+pytest>=8

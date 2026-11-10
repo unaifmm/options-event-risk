@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data is downloaded locally and NOT uploaded to GitHub (size + the vendors' terms of use)
+data/
+data_check/
+# tables that hold the vendor's own prices (option and SPY prices) stay local too
+results/02_daily.csv
+results/05_real_trades.csv
+results/06_chain_iv.csv
+results/07_days.csv
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.pytest_cache/
