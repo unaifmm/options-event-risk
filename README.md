@@ -10,6 +10,8 @@ The evening before a CPI release, a jobs report or a Fed decision, options on th
 
 *Unai Fueyo Montalvo · BSc Economics, Universidad Autónoma de Madrid · [LinkedIn](https://www.linkedin.com/in/unai-fueyo-montalvo-63823339b)*
 
+**Read the paper:** [full paper (PDF, 9 pages)](docs/Options_Event_Risk_paper.pdf) · [one-page summary (PDF)](docs/Options_Event_Risk_summary.pdf)
+
 ## Key findings
 
 1. **Normal days: options are overpriced.** The S&P 500 moves 0.89 times what options priced [95% CI 0.84, 0.94] over 985 days. Selling the next-day straddle earns about +0.04% of the index per trade and wins 62% of days. This holds on every check: averages, medians, trimming the biggest days, both periods.
@@ -179,6 +181,7 @@ The unit tests (`python -m pytest`, a few seconds, 26 tests) need no data and no
 │   ├── spy.py                  SPY minute bars and daily closes
 │   ├── lse.py, events.py       London Strategic Edge download and macro releases (from project 1)
 │   └── webapi.py               polite JSON client (from project 2)
+├── docs/                       the paper and its one-page summary
 ├── tests/                      unit tests (pytest), no data needed
 ├── figures/                    output charts
 └── results/                    output tables (CSV)
@@ -191,7 +194,7 @@ The unit tests (`python -m pytest`, a few seconds, 26 tests) need no data and no
 
 ## Versions
 
-- **v1.0** (Nov 2026): first release.
+- **v1.0** (Nov 2026): first release, with the paper and the one-page summary. Data downloaded on 4 November 2026.
 
 ## License
 
